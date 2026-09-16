@@ -3,6 +3,15 @@
 
 const array = [1,2,3,4,5];
 
-array.reverse();
+//array.reverse();
 
-console.log(array);
+//console.log(array);
+
+///
+
+function arr(array){
+              return array.reverse() ;
+}
+
+
+console.log(arr(array));
